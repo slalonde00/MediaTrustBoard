@@ -1,0 +1,12 @@
+mon-projet-factcheck/
+├── 📄 package.json          (Gestion des dépendances : lucide-react, tailwindcss)
+├── 📄 tailwind.config.js    (La configuration des couleurs "trust" et "brand") [Généré plus haut]
+├── 📄 postcss.config.js     (Le moteur qui compile Tailwind) [Généré plus haut]
+├── 📂 public/
+│   └── index.html           (Le squelette HTML de base)
+└── 📂 src/
+    ├── 📄 App.js            (Le coeur de l'app avec la logique et le JSX) [Généré plus haut]
+    ├── 📄 index.css         (Les directives @tailwind et vos animations) [Généré plus haut]
+    ├── 📄 index.js          (Le point d'entrée qui lie App.js au HTML)
+    └── 📂 services/
+        └── 📄 api.js        (La couche d'abstraction pour vos futurs appels API) [Généré plus haut]
