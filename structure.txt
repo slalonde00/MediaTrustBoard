@@ -1,12 +1,12 @@
-mon-projet-factcheck/
-├── 📄 package.json          (Gestion des dépendances : lucide-react, tailwindcss)
-├── 📄 tailwind.config.js    (La configuration des couleurs "trust" et "brand") [Généré plus haut]
-├── 📄 postcss.config.js     (Le moteur qui compile Tailwind) [Généré plus haut]
+MediaTrustBoard-project/
+├── 📄 package.json          (Liste des dépendances et scripts de lancement)
+├── 📄 tailwind.config.js    (Configuration des couleurs "trust" et "brand")
+├── 📄 postcss.config.js     (Configuration pour compiler Tailwind CSS)
 ├── 📂 public/
-│   └── index.html           (Le squelette HTML de base)
+│   └── 📄 index.html        (Squelette HTML avec la balise <div id="root">)
 └── 📂 src/
-    ├── 📄 App.js            (Le coeur de l'app avec la logique et le JSX) [Généré plus haut]
-    ├── 📄 index.css         (Les directives @tailwind et vos animations) [Généré plus haut]
-    ├── 📄 index.js          (Le point d'entrée qui lie App.js au HTML)
+    ├── 📄 App.js            (Composant principal : recherche + cartes de scores)
+    ├── 📄 index.js          (Point d'entrée React qui lie App.js au DOM)
+    ├── 📄 index.css         (Directives Tailwind + animations personnalisées)
     └── 📂 services/
-        └── 📄 api.js        (La couche d'abstraction pour vos futurs appels API) [Généré plus haut]
+        └── 📄 api.js        (Couche de données pour les futurs appels API)
